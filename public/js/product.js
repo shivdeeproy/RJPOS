@@ -120,7 +120,7 @@ $(document).ready(function() {
     {
         var lastDigit = price % 10;
        
-        if(lastDigit==9)
+        if(lastDigit==0)
         {
              __write_number($('input#single_dsp_inc_tax'), price);
 
@@ -415,7 +415,7 @@ $(document).ready(function() {
     {
         var lastDigit = price % 10;
        
-        if(lastDigit==9)
+        if(lastDigit==0)
         {
              __write_number(row.find('input.variable_dsp_inc_tax'), price);
 
