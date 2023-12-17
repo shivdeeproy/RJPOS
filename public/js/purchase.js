@@ -270,7 +270,7 @@ $(document).ready(function() {
     {
         var lastDigit = price % 10;
        
-        if(lastDigit==9)
+        if(lastDigit==0)
         {
              __write_number(row.find('.default_sell_price'), price);
 
